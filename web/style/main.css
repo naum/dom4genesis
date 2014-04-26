@@ -1,0 +1,20 @@
+body {
+    font-family: fantasy;
+    max-width: 600px;
+    margin: 0.66em auto;
+}
+
+button {
+    font-family: inherit;
+    font-weight: bold;
+}
+
+h1 { 
+    margin-bottom: 0.33em;
+}
+
+pre {
+    font-family: inherit;
+}
+
+
