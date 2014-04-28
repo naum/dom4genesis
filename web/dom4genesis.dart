@@ -3,8 +3,8 @@ import 'dart:async';
 import 'dart:html';
 import 'domworld.dart';
 
-var pageactionbar = query('#pageactionbar');
-var pageboard = query('#pageboard');
+var pageactionbar = querySelector('#pageactionbar');
+var pageboard = querySelector('#pageboard');
 var properwords = '';
 
 main() {
