@@ -1,7 +1,6 @@
 library domworld;
 
 import 'dart:math';
-import 'horatio.dart';
 
 var WIDTH_MULT = [2, 3, 4, 5, 6];
 var HEIGHT_MULT = [2, 3, 4];
@@ -39,7 +38,7 @@ class DomWorld {
     var wmx = 2;
     var hmx = 1;
     var aspectRatio = WIDTH_MULT[wmx] / HEIGHT_MULT[hmx];
-    var mapWidth = prov * 15;
+    var mapWidth = prov * 18;
     var mapHeight = (mapWidth * (1 / aspectRatio)).ceil();
     mapdim = "${mapWidth}x${mapHeight}";
     sea = rollSucc(20, DEFAULT_SEA, 100) * 5;
